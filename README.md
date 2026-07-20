@@ -1,5 +1,8 @@
 # Scherzo
 
+> **Deprecated:** This repository is no longer maintained. It is retained as a
+> historical reference and may be deleted in the future.
+
 Scherzo turns tracker tasks into supervised, repeatable coding-agent workflows. The production tracker adapter is Linear today: Scherzo polls tasks from Linear, selects them by workflow labels, prepares per-run workspaces, executes YAML DAGs made of `pi` agent steps and shell command steps, retains artifacts, and hands results back through the tracker.
 
 Scherzo is a Gleam/Erlang daemon and command-line tool. It is currently best suited for teams that are comfortable running their own local automation, reviewing agent output, and adapting repository-local YAML, prompts, schemas, and workspace policy.
